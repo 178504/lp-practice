@@ -1,1 +1,212 @@
 @charset "utf-8";
+
+.inner{
+  width: 1100px;
+  margin: 0 auto;
+}
+/* header style */
+.header{
+  background: #fff;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.header_area{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_area{
+  margin: 15px 0;
+}
+
+.contact_box{
+  background: #6ba7eb;
+  padding: 12px 14px;
+}
+.button{
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/* main style */
+main{
+  padding-top: 78px;
+}
+.keyvisual_area{
+  background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
+  padding: 400px 0;
+}
+.main_title{
+  text-align: center;
+}
+.company{
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  margin-bottom: 30px;
+}
+.marketing{
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* work area style */
+.work{
+  background: #e3f2fd;
+  padding-top: 50px;
+}
+.work_area{
+  display: flex;
+}
+.pc_area{
+  flex: 4;
+  text-align: center;
+}
+.pc_photo{
+  width: 250px;
+}
+.work_text{
+  flex: 6;
+}
+.title{
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+.work_menu{
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.list{
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+  text-align: center;
+}
+
+
+/* skills area style */
+.skills{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.skills_select{
+  text-align: center;
+}
+.skills_area{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.skills_photo{
+  width: 300px;
+  height: 300px;
+}
+.skillsitem:nth-child(-n+2){
+  margin-right: 100px;
+}
+.skillsitem:nth-of-type(n+4){
+  margin-top: 100px;
+  margin-right: 100px;
+}
+.skillsitem:nth-of-type(3n){
+  margin-right: 0;
+}
+
+
+/* select plan table style */
+.select_plan{
+  background: #d0dfea;
+  padding: 50px 0;
+}
+.table_area{
+  margin-top: 50px;
+}
+.table_cell{
+  table-layout: fixed;
+  width: 100%;
+}
+.table_cell th, .table_cell td{
+  border-left: 2px solid #fff;
+  padding: 10px;
+}
+.table_cell th, .table_cell td:first-child{
+  border-left: 0;
+}
+.table_cell th{
+  background: #6ba7eb;
+  font-size: 16px;
+  line-height: 26px;
+}
+.table_cell td{
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+td:first-child{
+  font-weight: bold;
+}
+.table_cell tr{
+  background: #f9f9f9;
+}
+.table_cell tr:nth-child(even){
+  background: #e0efff;
+}
+
+/* sns area style */
+.sns{
+  background: #e3f2fd;
+  padding: 200px 0;
+}
+.sns_burner{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+/* フォントアイコン style */
+.fas{
+  color: #777;
+}
+.fa-brands{
+  color: #8c8c8c;
+  display: block;
+  font-size: 40px;
+  width: 185px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+.fa-solid{
+  color: #8c8c8c;
+  display: block;
+  font-size: 40px;
+  width: 185px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+}
+
+
+/*footer style */
+.footer{
+  background: #cfd8dc;
+}
+.privacypolicy{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: end;
+}
+.copyright{
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}

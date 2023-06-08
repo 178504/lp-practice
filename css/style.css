@@ -229,3 +229,110 @@ a{
 }
 
 
+/* TAB */
+@media screen and (max-width:1199px){
+  .inner{
+    width: 97%;
+  }
+  .keyvisual_area{
+    padding: 250px 0;
+  }
+  .work{
+    padding-bottom: 50px;
+  }
+  .work_area{
+    display: block;
+  }
+  .skills{
+    padding-bottom: 70px;
+  }
+  .skills_area{
+    flex-direction: column;
+    text-align: center;
+  }
+  .skillsitem:nth-child(-n+2){
+    margin-right: 0;
+  }
+  .skillsitem:nth-of-type(n+4){
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .skillsitem:nth-of-type(3n){
+    margin-bottom: 100px;
+  }
+}
+
+/* SP */
+@media screen and (max-width:767px) {
+  .hamburger-menu{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    top: 15px;
+    right:10px;
+    background: #57a2c7;
+  }
+  .hamburger-menu span{
+    display: inline-block;
+    position: absolute;
+    transition: all .4s;
+    width: 45%;
+    height: 3px;
+    left: 14px;
+    border-radius: 2px;
+    background: #fff;
+  }
+  .hamburger-menu span:nth-last-of-type(1){
+    top: 15px;
+  }
+  .hamburger-menu span:nth-last-of-type(2){
+    top: 23px;
+  }
+  .hamburger-menu span:nth-last-of-type(3){
+    top: 31px;
+  }
+  .nav_contact{
+    display: none;
+  }
+  .keyvisual_area{
+    padding: 200px 0;
+  }
+  .company{
+    font-size: 40px;
+  }
+  .marketing{
+    font-size: 30px;
+  }
+  .table_cell th{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .table_cell td{
+    font-size: 12px;
+  }
+  .table_area{
+    width: 97%;
+  }
+  .sns{
+    padding: 0;
+  }
+  .sns_area{
+    width: 97%;
+    padding: 50px 0;
+    margin: 0 15px;
+  }
+  .sns_burner{
+    flex-direction: column;
+  }
+  .fab{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .fa-solid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+}
